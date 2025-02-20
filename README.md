@@ -9,10 +9,10 @@ This application reads in data from the JASMIN Object Store, generated from the 
 This application is [deployed on Datalabs](https://ditbas-asliapp.datalabs.ceh.ac.uk/), but has been written to allow deployment elsewhere.
 
 ## Installation
-You can install the development version of `asliapp`:
+You can install the development version of `asliapp` using the [remotes](https://remotes.r-lib.org/) package:
 
 ```r
-remotes::install("antarctica/asliapp")
+remotes::install_github("antarctica/asliapp")
 ```
 
 If you want to run the app locally:
